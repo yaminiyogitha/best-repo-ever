@@ -4,7 +4,7 @@
       // loop through them and update the Description field
       for (Account acct : oldAccounts) {
           acct.Description = 'Heritage Account';
-          acct.Name = 'Heritage LLC';
+          acct.Random = ' Account';
       }
       // save the change you made
       update oldAccounts;
