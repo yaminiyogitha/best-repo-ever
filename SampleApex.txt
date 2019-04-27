@@ -8,5 +8,13 @@
       }
       // save the change you made
       update oldAccounts;
+      for (Account acct : oldAccounts) {
+          acct.Description = 'Heritage Account';
+          acct.Random = ' Account';
+      }
+      for (Account acct : oldAccounts) {
+          acct.Description = 'Heritage Account';
+          acct.Random = ' Account';
+      }
     }
 added
