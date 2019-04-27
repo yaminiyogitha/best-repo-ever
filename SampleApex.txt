@@ -6,6 +6,14 @@
           acct.Random = ' Account';
           acct.Field = 'Something';
       }
+      for (Account acct : oldAccounts) {
+          acct.Random = ' Account';
+          acct.Field = 'Something';
+      }
+      for (Account acct : oldAccounts) {
+          acct.Random = ' Account';
+          acct.Field = 'Something';
+      }
       // save the change you made
       update oldAccounts;
     }
